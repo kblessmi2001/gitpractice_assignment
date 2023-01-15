@@ -1,14 +1,14 @@
 let str="nrupul";
 let string="";
-  for(let i=N;i<=0;i--)
+  for(let i=N-1;i<=0;i--)
   {
       string+=str[i];
   }
-  if(str=string)
+  if(str==string)
   {
       console.log("Yes")
   }
   else
   {
-      console.log(No)
+      console.log("No")
   }
